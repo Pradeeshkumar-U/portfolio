@@ -3,8 +3,8 @@ import Section from "./Section";
 const About = () => {
     return (
         <Section id="about" className="bg-zinc-900/50 md:px-12 lg:px-20">
-            <div className="md:flex gap-12 items-center">
-                <div className="md:w-1/2 mb-8 md:mb-0">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div className="mb-8 md:mb-0">
                     <h2 className="text-3xl font-bold mb-6 border-l-4 border-amber-500 pl-4 text-white">
                         About Me
                     </h2>
@@ -20,7 +20,7 @@ const About = () => {
                 </div>
 
                 {/* Stats or Highlights */}
-                <div className="md:w-1/2 grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-2 gap-4">
                     <div className="bg-zinc-800 p-6 rounded-lg text-center hover:bg-zinc-700 transition-colors border border-zinc-700">
                         <h3 className="text-3xl font-bold text-amber-500">15k+</h3>
                         <p className="text-sm text-zinc-400 mt-2">App Downloads</p>
