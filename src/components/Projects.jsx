@@ -39,10 +39,10 @@ const Projects = () => {
                 {projects.map((project, index) => (
                     <div
                         key={index}
-                        className="group bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden hover:border-amber-500/50 transition-all hover:-translate-y-1 shadow-lg"
+                        className="group bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden hover:border-amber-500/50 transition-all hover:-translate-y-1 shadow-lg flex flex-col h-full"
                     >
                         {/* Project Image */}
-                        <div className="h-48 bg-zinc-800 relative overflow-hidden group-hover:bg-zinc-700 transition-colors">
+                        <div className="h-48 bg-zinc-800 relative overflow-hidden group-hover:bg-zinc-700 transition-colors shrink-0">
                             <div className="absolute inset-0 bg-gradient-to-t from-zinc-900 to-transparent opacity-60 z-10" />
                             <img
                                 src={project.image}
@@ -60,7 +60,7 @@ const Projects = () => {
                             </div>
                         </div>
 
-                        <div className="p-4 md:p-6">
+                        <div className="p-4 md:p-6 flex flex-col flex-grow">
                             <div className="flex justify-between items-start mb-4">
                                 <div>
                                     <h3 className="text-lg md:text-xl font-bold text-white group-hover:text-amber-500 transition-colors">
@@ -85,7 +85,7 @@ const Projects = () => {
                                 ))}
                             </div>
 
-                            <div className="flex gap-4 pt-4 border-t border-zinc-800">
+                            <div className="mt-auto flex gap-4 pt-4 border-t border-zinc-800">
                                 <a href={project.links.demo} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-white hover:text-amber-500 transition-colors">
                                     <ExternalLink size={16} /> View Deployment
                                 </a>
