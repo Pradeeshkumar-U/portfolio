@@ -2,7 +2,7 @@ import Section from "./Section";
 
 const About = () => {
     return (
-        <Section id="about" className="bg-zinc-900/50">
+        <Section id="about" className="bg-zinc-900/50 md:px-12 lg:px-20">
             <div className="md:flex gap-12 items-center">
                 <div className="md:w-1/2 mb-8 md:mb-0">
                     <h2 className="text-3xl font-bold mb-6 border-l-4 border-amber-500 pl-4 text-white">
