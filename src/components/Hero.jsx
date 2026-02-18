@@ -12,7 +12,7 @@ const Hero = () => {
             <div className="absolute top-20 right-0 w-96 h-96 bg-amber-600/10 rounded-full blur-3xl" />
             <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-indigo-900/10 rounded-full blur-3xl" />
 
-            <div className="container mx-auto px-6 relative z-10">
+            <div className="container mx-auto w-[70rem] relative z-10">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div className="space-y-6 text-center md:text-left order-2 md:order-1">
                         <motion.div
@@ -52,14 +52,14 @@ const Hero = () => {
                                 smooth={true}
                                 duration={500}
                                 offset={-70}
-                                className="px-8 py-3 bg-white text-black font-semibold rounded-lg hover:bg-zinc-200 transition-all flex items-center justify-center gap-2 cursor-pointer"
+                                className="px-8 mx-5 lg:mx-0 py-3 bg-white text-black font-semibold rounded-lg hover:bg-zinc-200 transition-all flex items-center justify-center gap-2 cursor-pointer"
                             >
                                 View Projects <ArrowRight size={20} />
                             </Link>
                             <a
                                 href="/Pradeeshkumar_Resume.pdf"
                                 download="Pradeeshkumar_Resume.pdf"
-                                className="px-8 py-3 bg-transparent border border-zinc-700 text-white font-semibold rounded-lg hover:bg-zinc-800 transition-all flex items-center justify-center gap-2"
+                                className="px-8 mx-5 lg:mx-0 py-3 bg-transparent border border-zinc-700 text-white font-semibold rounded-lg hover:bg-zinc-800 transition-all flex items-center justify-center gap-2"
                             >
                                 Resume <Download size={20} />
                             </a>

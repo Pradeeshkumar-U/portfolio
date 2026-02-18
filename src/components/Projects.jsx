@@ -47,7 +47,7 @@ const Projects = () => {
                             <img
                                 src={project.image}
                                 alt={project.title}
-                                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                className="w-full h-full object-cover transition-transform duration-500"
                                 onError={(e) => {
                                     e.target.onerror = null;
                                     e.target.style.display = 'none';
