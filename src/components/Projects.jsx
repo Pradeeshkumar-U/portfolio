@@ -7,7 +7,7 @@ const Projects = () => {
             title: "HireAI Website",
             category: "Agentic AI Platform",
             description: "End-to-end automated recruitment platform using agentic AI to screen resumes, conduct quizzes, and schedule interviews.",
-            stack: ["Node.js", "Express.js", "PostgreSQL", "Redis", "AI Integration"],
+            stack: ["React.js", "Node.js", "Express.js", "PostgreSQL", "Redis", "AI Integration"],
             links: { demo: "https://ai-hiring-manager-six.vercel.app/" },
             image: "/projects/hireai.png"
         },
@@ -15,7 +15,7 @@ const Projects = () => {
             title: "IEEE 519 Limit Finder",
             category: "Subscription Platform",
             description: "Production-ready subscription platform managing recurring plans and access control with secure REST APIs.",
-            stack: ["MongoDB", "Express.js", "Node.js", "Play Store"],
+            stack: ["Flutter", "Dart", "MongoDB", "Express.js", "Node.js", "Play Store"],
             links: { demo: "https://play.google.com/store/apps/details?id=com.foretec.tdd" },
             image: "/projects/ieee.png"
         },
@@ -23,7 +23,7 @@ const Projects = () => {
             title: "Tamil FM App",
             category: "Mobile App",
             description: "Real-time radio streaming app with 15,000+ downloads. Optimized audio playback and production-ready performance.",
-            stack: ["Flutter", "Dart", "Firebase", "Play Store"],
+            stack: ["Flutter", "Dart", "PostgreSQL", "Express.js", "Node.js", "Play Store"],
             links: { demo: "https://play.google.com/store/apps/details?id=com.lazyPanda.Diwan" },
             image: "/projects/tamilfm.png"
         },
