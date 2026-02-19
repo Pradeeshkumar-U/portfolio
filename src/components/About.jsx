@@ -19,7 +19,6 @@ const About = () => {
                     </p>
                 </div>
 
-                {/* Stats or Highlights */}
                 <div className="grid grid-cols-2 gap-4">
                     <div className="bg-zinc-800 p-6 rounded-lg text-center hover:bg-zinc-700 transition-colors border border-zinc-700">
                         <h3 className="text-3xl font-bold text-amber-500">15k+</h3>
