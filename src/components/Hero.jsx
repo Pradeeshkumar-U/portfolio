@@ -27,7 +27,7 @@ const Hero = () => {
                                 Pradeeshkumar U
                             </h1>
                             <h3 className="text-2xl md:text-3xl text-zinc-400 mt-2 font-light">
-                                Web & Software Engineer
+                                Software Engineer
                             </h3>
                         </motion.div>
 
@@ -37,7 +37,7 @@ const Hero = () => {
                             transition={{ duration: 0.6, delay: 0.2 }}
                             className="text-zinc-400 max-w-xl text-lg leading-relaxed mx-auto md:mx-0"
                         >
-                            Passionate about building scalable web and mobile applications using React, Node.js, SpringBoot, Flutter, and Firebase.
+                            Passionate about building scalable mobile applications using React, Node.js, SpringBoot, Flutter, and Firebase.
                             Focused on creating user-centric digital experiences.
                         </motion.p>
 
